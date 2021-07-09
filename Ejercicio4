@@ -1,0 +1,17 @@
+Proceso Ejercicio_4
+	
+	Definir letra Como Caracter;
+	
+	Escribir "Ingresar una letra en minúsculas:";
+	Leer letra;
+	
+	Segun letra hacer
+		"a"o"e"o"i"o"o"o"u":
+			Mostrar "La letra ingresada es una vocal";
+		"b"o"c"o"d"o"f"o"g"o"h"o"j"o"k"o"l"o"m"o"n"o"ñ"o"p"o"q"o"r"o"s"o"t"o"v"o"w"o"x"o"y"o"z":
+			Mostrar "La letra ingresada es una constante";
+		De Otro Modo:
+			Mostrar "Uster ingreso un número";
+	FinSegun
+	
+FinProceso
