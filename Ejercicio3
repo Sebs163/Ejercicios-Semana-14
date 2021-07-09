@@ -1,0 +1,36 @@
+Proceso Ejercicio_3
+	
+	Definir x, i, opcion1 Como Real;
+	
+	Escribir "¿Qué desea hacer?";
+	Escribir "1: sumar";
+	Escribir "2: Restar";
+	Escribir "3: multiplicar";
+	Escribir "4: dividir";
+	Leer opcion1
+	
+	Escribir "Ingresar valor de la primera variable";
+	Leer x;
+	Escribir "Ingresar valor de la segunda variable (menos el número 0)";
+	Leer i;
+	
+	Escribir "El resultado es: "
+	Segun opcion1 hacer
+		1:
+			suma=x+i
+			Mostrar suma
+		2:
+			resta=x-i
+			Mostrar resta
+		3:
+			multiplicar=x*i
+			Mostrar multiplicar
+		4:
+			si (i==0) Entonces
+				Mostrar "El segundo número debe ser diferente a 0"
+			SiNo
+				division=x/i
+				Mostrar division
+			FinSi
+	FinSegun
+FinProceso
