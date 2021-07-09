@@ -1,0 +1,68 @@
+Proceso Ejercicio_5
+	
+	Definir mes, dia Como Real;
+	
+	Escribir "Ingresar dia de nacimiento";
+	Leer dia;
+	Escribir "Ingresar mes de nacimiento";
+	Leer mes;
+	
+	Segun mes hacer
+		1:
+			Mostrar "Naciste en Enero";
+			Mostrar "Verano";
+		2:
+			Mostrar "Naciste en Febrero";
+			Mostrar "Verano";
+		3:
+			si (dia<20) Entonces
+				Mostrar "Naciste en Marzo";
+				Mostrar "Verano";
+			SiNo
+				Mostrar "Naciste en Marzo";
+				Mostrar "Otoño";
+			FinSi
+		4:
+			Mostrar "Naciste en Abril";
+			Mostrar "Otoño";
+		5:
+			Mostrar "Naciste en Mayo";
+			Mostrar "Otoño";
+		6:
+			Si (dia<20) Entonces
+				Mostrar "Naciste en Junio";
+				Mostrar "Otoño";
+			SiNo
+				Mostrar "Naciste en Junio";
+				Mostrar "Invierno";
+			FinSi
+		7:
+			Mostrar "Naciste en Julio";
+			Mostrar "Invierno";
+		8:
+			Mostrar "Naciste en Agosto";
+			Mostrar "Invierno";
+		9:
+			si (dia<20) Entonces
+				Mostrar "Septiembre";
+				Mostrar "Invierno";
+			SiNo
+				Mostrar "Naciste en Septiembre";
+				Mostrar "Primavera";
+			FinSi
+		10:
+			Mostrar "Naciste en Octubre";
+			Mostrar "Primavera";
+		11:
+			Mostrar "Naciste en Noviembre";
+			Mostrar "Primavera";
+		12:
+			si (dia<20) Entonces
+				Mostrar "Naciste en Diciembre";
+				Mostrar "Primavera";
+			SiNo
+				Mostrar "Naciste en Diciembre";
+				Mostrar "Verano";
+			FinSi
+	FinSegun
+FinProceso
